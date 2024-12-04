@@ -44,7 +44,9 @@ export interface AriaComboBoxOptions<T> extends Omit<AriaComboBoxProps<T>, 'chil
    * By default this uses the DOM, but this can be overridden to implement things like
    * virtualized scrolling.
    */
-  layoutDelegate?: LayoutDelegate
+  layoutDelegate?: LayoutDelegate,
+  /** The ref for the root element, it'll be used by when calling ariaHideOutside.  */
+  rootRef: RefObject<HTMLElement | null>
 }
 
 export interface ComboBoxAria<T> extends ValidationResult {
@@ -79,7 +81,8 @@ export function useComboBox<T>(props: AriaComboBoxOptions<T>, state: ComboBoxSta
     // completionMode = 'suggest',
     shouldFocusWrap,
     isReadOnly,
-    isDisabled
+    isDisabled,
+    rootRef,
   } = props;
   let backupBtnRef = useRef(null);
   buttonRef = buttonRef ?? backupBtnRef;
@@ -338,9 +341,9 @@ export function useComboBox<T>(props: AriaComboBoxOptions<T>, state: ComboBoxSta
 
   useEffect(() => {
     if (state.isOpen) {
-      return ariaHideOutside([inputRef.current, popoverRef.current].filter(element => element != null));
+      return ariaHideOutside([inputRef.current, popoverRef.current].filter(element => element != null), rootRef.current ? rootRef.current : undefined);
     }
-  }, [state.isOpen, inputRef, popoverRef]);
+  }, [state.isOpen, inputRef, popoverRef, rootRef]);
 
   return {
     labelProps,

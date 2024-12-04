@@ -12,7 +12,7 @@
 
 import {ariaHideOutside} from '../src';
 import React from 'react';
-import {render, waitFor} from '@react-spectrum/test-utils-internal';
+import {getByText, render, waitFor} from '@react-spectrum/test-utils-internal';
 
 describe('ariaHideOutside', function () {
   it('should hide everything except the provided element [button]', function () {
@@ -41,6 +41,44 @@ describe('ariaHideOutside', function () {
     expect(checkboxes[0]).not.toHaveAttribute('aria-hidden');
     expect(checkboxes[1]).not.toHaveAttribute('aria-hidden');
     expect(button).not.toHaveAttribute('aria-hidden');
+
+    expect(() => getAllByRole('checkbox')).not.toThrow();
+    expect(() => getByRole('button')).not.toThrow();
+  });
+
+  it.only('should hide everything inside the hide container, elements outside should be hidden', function () {
+    let {getByRole, getAllByRole, getByTestId} = render(
+      <>
+        <div id="hide-container">
+          <input type="checkbox" />
+          <button>Button</button>
+          <input type="checkbox" />
+        </div>
+        <span data-testid="outside-element">Outside Element</span>
+      </>
+    );
+
+    let hideContainer = document.getElementById('hide-container');
+    let checkboxes = getAllByRole('checkbox');
+    let button = getByRole('button');
+    let outsideElement = getByTestId('outside-element');
+
+    let revert = ariaHideOutside([button], hideContainer);
+
+    expect(checkboxes[0]).toHaveAttribute('aria-hidden', 'true');
+    expect(checkboxes[1]).toHaveAttribute('aria-hidden', 'true');
+    expect(button).not.toHaveAttribute('aria-hidden');
+    expect(outsideElement).not.toHaveAttribute('aria-hidden');
+
+    expect(() => getAllByRole('checkbox')).toThrow();
+    expect(() => getByRole('button')).not.toThrow();
+
+    revert();
+
+    expect(checkboxes[0]).not.toHaveAttribute('aria-hidden');
+    expect(checkboxes[1]).not.toHaveAttribute('aria-hidden');
+    expect(button).not.toHaveAttribute('aria-hidden');
+    expect(outsideElement).not.toHaveAttribute('aria-hidden');
 
     expect(() => getAllByRole('checkbox')).not.toThrow();
     expect(() => getByRole('button')).not.toThrow();
