@@ -46,7 +46,7 @@ describe('ariaHideOutside', function () {
     expect(() => getByRole('button')).not.toThrow();
   });
 
-  it.only('should hide everything inside the hide container, elements outside should be hidden', function () {
+  it('should hide everything inside the hide container, elements outside should be hidden', function () {
     let {getByRole, getAllByRole, getByTestId} = render(
       <>
         <div id="hide-container">

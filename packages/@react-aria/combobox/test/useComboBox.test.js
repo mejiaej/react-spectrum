@@ -76,6 +76,30 @@ describe('useComboBox', function () {
     expect(buttonProps['onKeyDown']).toBeTruthy();
   });
 
+  it('should return default props for all the button group elements', function () {
+    let {result} = renderHook(() => useComboBox({...props, rootRef: document.createElement('div')}, useComboBoxState(defaultProps)));
+    let {buttonProps, inputProps, listBoxProps, labelProps} = result.current;
+
+    expect(labelProps.id).toBeTruthy();
+    expect(labelProps.htmlFor).toBe(inputProps.id);
+    expect(inputProps.id).toBeTruthy();
+    expect(inputProps['aria-labelledby']).toBe(labelProps.id);
+    expect(inputProps.role).toBe('combobox');
+    expect(inputProps['aria-autocomplete']).toBe('list');
+    expect(inputProps['aria-controls']).toBeFalsy();
+    expect(inputProps['aria-activedescendant']).toBeFalsy();
+    expect(listBoxProps.id).toBeTruthy();
+    expect(listBoxProps['aria-labelledby']).toBe(`${listBoxProps.id} ${labelProps.id}`);
+    expect(buttonProps.id).toBeTruthy();
+    expect(buttonProps.excludeFromTabOrder).toBeTruthy();
+    expect(buttonProps['aria-haspopup']).toBeTruthy();
+    expect(buttonProps['aria-expanded']).toBeFalsy();
+    expect(buttonProps['aria-controls']).toBeFalsy();
+    expect(buttonProps['onPress']).toBeTruthy();
+    expect(buttonProps['onPressStart']).toBeTruthy();
+    expect(buttonProps['onKeyDown']).toBeTruthy();
+  });
+
   it('should prevent default on Enter if isOpen', function () {
     let {result: state} = renderHook((props) => useComboBoxState(props), {initialProps: {...props, allowsEmptyCollection: true}});
     act(() => {
