@@ -1,0 +1,64 @@
+@layer _.a {
+  .bg {
+    background-color: var(--lightningcss-light, #e9e9e9) var(--lightningcss-dark, #2c2c2c);
+  }
+
+  .__vb {
+    overflow-x: hidden;
+  }
+
+  .__wb {
+    overflow-y: hidden;
+  }
+
+  ._Za {
+    display: block;
+  }
+
+  .lb {
+    width: 100%;
+  }
+
+  .kb {
+    height: 100%;
+  }
+
+  .__N-17zqamw {
+    object-fit: inherit;
+  }
+
+  .__O-17zqamw {
+    object-position: inherit;
+  }
+
+  ._K-3t1x {
+    opacity: 0;
+  }
+
+  ._K-3t1y {
+    opacity: 1;
+  }
+
+  ._Og {
+    transition-property: none;
+  }
+
+  ._Oc {
+    transition-property: opacity;
+  }
+
+  ._Q-3760fu {
+    transition-duration: .5s;
+  }
+
+  ._Ra {
+    transition-timing-function: cubic-bezier(.45, 0, .4, 1);
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+/*# sourceMappingURL=Image.css.map */

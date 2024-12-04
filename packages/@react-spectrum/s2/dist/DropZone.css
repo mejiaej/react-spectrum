@@ -1,0 +1,236 @@
+@layer _.a {
+  .Uc {
+    position: relative;
+  }
+
+  ._ca {
+    font-family: adobe-clean-variable, adobe-clean, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .ao {
+    color: var(--lightningcss-light, #131313) var(--lightningcss-dark, #f2f2f2);
+  }
+
+  .wb {
+    border-style: dashed;
+  }
+
+  .wa {
+    border-style: solid;
+  }
+
+  .br {
+    background-color: var(--lightningcss-light, #e5f0fe) var(--lightningcss-dark, #0f1c52);
+  }
+
+  .uc {
+    border-top-width: 2px;
+  }
+
+  .vc {
+    border-bottom-width: 2px;
+  }
+
+  .sc {
+    border-inline-start-width: 2px;
+  }
+
+  .tc {
+    border-inline-end-width: 2px;
+  }
+
+  .ci {
+    border-color: var(--lightningcss-light, #dadada) var(--lightningcss-dark, #393939);
+  }
+
+  .cx {
+    border-color: var(--lightningcss-light, #4b75ff) var(--lightningcss-dark, #4069fd);
+  }
+
+  ._vd {
+    border-start-start-radius: .625rem;
+  }
+
+  ._wd {
+    border-start-end-radius: .625rem;
+  }
+
+  ._xd {
+    border-end-start-radius: .625rem;
+  }
+
+  ._yd {
+    border-end-end-radius: .625rem;
+  }
+
+  .Eh {
+    padding-top: 1.5rem;
+  }
+
+  .Fh {
+    padding-bottom: 1.5rem;
+  }
+
+  .Ch {
+    padding-inline-start: 1.5rem;
+  }
+
+  .Dh {
+    padding-inline-end: 1.5rem;
+  }
+
+  .Ua {
+    position: absolute;
+  }
+
+  .Ya {
+    left: 0;
+  }
+
+  ._aa {
+    right: 0;
+  }
+
+  .y_d {
+    margin-inline-start: auto;
+  }
+
+  .z_d {
+    margin-inline-end: auto;
+  }
+
+  ._Zd {
+    display: flex;
+  }
+
+  ._1c {
+    align-items: center;
+  }
+
+  ._2d {
+    justify-content: center;
+  }
+
+  .o-375tou {
+    min-height: var(--o);
+  }
+
+  .le {
+    width: fit-content;
+  }
+
+  .r___v {
+    max-width: calc(12rem * var(--s2-scale));
+  }
+
+  .r__Z {
+    max-width: calc(10rem * var(--s2-scale));
+  }
+
+  .r___L {
+    max-width: calc(13rem * var(--s2-scale));
+  }
+
+  .b_____E {
+    background-color: var(--lightningcss-light, #3b63fb) var(--lightningcss-dark, #4069fd);
+  }
+
+  .b_____F {
+    background-color: var(--lightningcss-light, #274dea) var(--lightningcss-dark, #345bf8);
+  }
+
+  ._vc {
+    border-start-start-radius: .5rem;
+  }
+
+  ._wc {
+    border-start-end-radius: .5rem;
+  }
+
+  ._xc {
+    border-end-start-radius: .5rem;
+  }
+
+  ._yc {
+    border-end-end-radius: .5rem;
+  }
+
+  .ac {
+    color: #fff;
+  }
+
+  ._ed {
+    font-variation-settings: "wght" 700;
+    font-synthesis-weight: none;
+    font-weight: 700;
+  }
+
+  .E-17c1d5h {
+    padding-top: calc((var(--o)) / 1.5);
+  }
+
+  .F-17c1d5h {
+    padding-bottom: calc((var(--o)) / 1.5);
+  }
+
+  .C-17c1d5h {
+    padding-inline-start: calc((var(--o)) / 1.5);
+  }
+
+  .D-17c1d5h {
+    padding-inline-end: calc((var(--o)) / 1.5);
+  }
+
+  .-_375tou_o-I {
+    --o: calc(1.25rem * var(--s2-scale));
+  }
+}
+
+@layer _.b {
+  ._c-enzrfpb:lang(ar) {
+    font-family: myriad-arabic, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer _.c {
+  ._c-enzwzjc:lang(he) {
+    font-family: myriad-hebrew, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer _.d {
+  ._c-enzykdd:lang(ja) {
+    font-family: adobe-clean-han-japanese, Hiragino Kaku Gothic ProN, ヒラギノ角ゴ ProN W3, Osaka, YuGothic, Yu Gothic, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  }
+}
+
+@layer _.e {
+  ._c-enzzrge:lang(ko) {
+    font-family: adobe-clean-han-korean, source-han-korean, Malgun Gothic, Apple Gothic, sans-serif;
+  }
+}
+
+@layer _.f {
+  ._c-eo0c6sf:lang(zh) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.g {
+  ._c-1uotwbwg:lang(zh-hant) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Microsoft JhengHei UI, Microsoft JhengHei, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.h {
+  ._c-bc1l9oh:is(:lang(zh-Hans), :lang(zh-CN), :lang(zh-SG)) {
+    font-family: adobe-clean-han-simplified-c, source-han-simplified-c, SimSun, Heiti SC Light, sans-serif;
+  }
+}
+
+@layer UNSAFE_overrides;
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+/*# sourceMappingURL=DropZone.css.map */

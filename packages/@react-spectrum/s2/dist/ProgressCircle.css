@@ -1,0 +1,100 @@
+@layer _.a {
+  .lU {
+    width: calc(2rem * var(--s2-scale));
+  }
+
+  .lE {
+    width: calc(1rem * var(--s2-scale));
+  }
+
+  .l_q {
+    width: calc(4rem * var(--s2-scale));
+  }
+
+  .kU {
+    height: calc(2rem * var(--s2-scale));
+  }
+
+  .kE {
+    height: calc(1rem * var(--s2-scale));
+  }
+
+  .k_q {
+    height: calc(4rem * var(--s2-scale));
+  }
+
+  ._bb {
+    aspect-ratio: 1;
+  }
+
+  .fk {
+    stroke: var(--lightningcss-light, #dadada) var(--lightningcss-dark, #393939);
+  }
+
+  .f_____b {
+    stroke: #ffffff2b;
+  }
+
+  .f_____o {
+    stroke: #00000026;
+  }
+
+  .fA {
+    stroke: var(--lightningcss-light, #3b63fb) var(--lightningcss-dark, #5681ff);
+  }
+
+  .f_____h {
+    stroke: #fffffff0;
+  }
+
+  .f_____u {
+    stroke: #000000ed;
+  }
+
+  .R-375ty3 {
+    rotate: -90deg;
+  }
+
+  .__Ga {
+    transform-origin: center;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+@layer _.b.a {
+  @media (forced-colors: active) {
+    .fa_____w {
+      stroke: background;
+    }
+
+    .fa_____B {
+      stroke: highlight;
+    }
+  }
+}
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@keyframes -u41dq3 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes -_1i5ccgk {
+  0%, 100% {
+    stroke-dashoffset: 75px;
+  }
+
+  30% {
+    stroke-dashoffset: 20px;
+  }
+}
+/*# sourceMappingURL=ProgressCircle.css.map */

@@ -1,0 +1,141 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._Zf {
+    display: grid;
+  }
+
+  .__a-3t1y {
+    grid-column-start: 1;
+  }
+
+  .__b-7u9dhl {
+    grid-column-end: span 2;
+  }
+
+  .__h-375yi6 {
+    grid-template-columns: 1fr;
+  }
+
+  .__h-jyg4vb {
+    grid-template-columns: auto 1fr;
+  }
+
+  .__h-1cwd7ud {
+    grid-template-columns: subgrid;
+  }
+
+  .__i-fdenls {
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .__i-jyg4vb {
+    grid-template-rows: auto 1fr;
+  }
+
+  .__j-xlaqir {
+    grid-template-areas: "label"
+                         "input"
+                         "helptext";
+  }
+
+  .__j-5eez8j {
+    grid-template-areas: "label input"
+                         "label helptext";
+  }
+
+  ._de {
+    font-size: .875rem;
+  }
+
+  ._da {
+    font-size: .6875rem;
+  }
+
+  ._dc {
+    font-size: .75rem;
+  }
+
+  ._dg {
+    font-size: 1rem;
+  }
+
+  ._di {
+    font-size: 1.125rem;
+  }
+
+  ._1d {
+    align-items: baseline;
+  }
+
+  ._fa {
+    line-height: 1.3;
+  }
+
+  .-aqrvqh_k-f {
+    --field-height: calc(2rem * var(--s2-scale));
+  }
+
+  .-aqrvqh_k-g {
+    --field-height: calc(1.25rem * var(--s2-scale));
+  }
+
+  .-aqrvqh_k-h {
+    --field-height: calc(1.5rem * var(--s2-scale));
+  }
+
+  .-aqrvqh_k-i {
+    --field-height: calc(2.5rem * var(--s2-scale));
+  }
+
+  .-aqrvqh_k-j {
+    --field-height: calc(3rem * var(--s2-scale));
+  }
+
+  .-_1inj1bc_i--prjw07 {
+    --field-gap: calc((var(--field-height)  - var(--u, 0px)  - var(--v, 0px)  - 1lh) / 2);
+  }
+
+  .je {
+    column-gap: .75rem;
+  }
+
+  .__R-yksgrp {
+    -webkit-tap-highlight-color: #0000;
+  }
+}
+
+@layer _.b {
+  ._f-1x99dlob:is(:lang(ja), :lang(ko), :lang(zh), :lang(zh-Hant), :lang(zh-Hans)) {
+    line-height: 1.5;
+  }
+}
+
+@layer UNSAFE_overrides;
+
+@layer _.b.b {
+  @media not ((hover: hover) and (pointer: fine)) {
+    ._dbf {
+      font-size: 1.0625rem;
+    }
+
+    ._dbb {
+      font-size: .8125rem;
+    }
+
+    ._dbd {
+      font-size: .9375rem;
+    }
+
+    ._dbh {
+      font-size: 1.1875rem;
+    }
+
+    ._dbj {
+      font-size: 1.375rem;
+    }
+  }
+}
+/*# sourceMappingURL=ColorField.css.map */

@@ -1,0 +1,253 @@
+@layer _.a {
+  .l___u {
+    width: calc(12rem * var(--s2-scale));
+  }
+
+  .k___u {
+    height: calc(12rem * var(--s2-scale));
+  }
+
+  ._Zf {
+    display: grid;
+  }
+
+  ._Za {
+    display: block;
+  }
+
+  .__h-1egg2pz {
+    grid-template-columns: 1fr auto;
+  }
+
+  .__j-1roc9nk {
+    grid-template-areas: "label output"
+                         "track track";
+  }
+
+  .ic {
+    row-gap: .25rem;
+  }
+
+  .__a-5czzau {
+    grid-column-start: output;
+  }
+
+  .__b-5czzau {
+    grid-column-end: output;
+  }
+
+  .__c-5czzau {
+    grid-row-start: output;
+  }
+
+  .__d-5czzau {
+    grid-row-end: output;
+  }
+
+  ._ca {
+    font-family: adobe-clean-variable, adobe-clean, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ._de {
+    font-size: .875rem;
+  }
+
+  ._da {
+    font-size: .6875rem;
+  }
+
+  ._dc {
+    font-size: .75rem;
+  }
+
+  ._dg {
+    font-size: 1rem;
+  }
+
+  ._di {
+    font-size: 1.125rem;
+  }
+
+  ._eb {
+    font-variation-settings: "wght" 400;
+    font-synthesis-weight: none;
+    font-weight: 400;
+  }
+
+  ._fa {
+    line-height: 1.3;
+  }
+
+  .am {
+    color: var(--lightningcss-light, #505050) var(--lightningcss-dark, #afafaf);
+  }
+
+  .an {
+    color: var(--lightningcss-light, #292929) var(--lightningcss-dark, #dbdbdb);
+  }
+
+  .aj {
+    color: var(--lightningcss-light, #c6c6c6) var(--lightningcss-dark, #444);
+  }
+
+  .__Hb {
+    cursor: default;
+  }
+
+  .__a-4ka10a {
+    grid-column-start: track;
+  }
+
+  .__b-4ka10a {
+    grid-column-end: track;
+  }
+
+  .__c-4ka10a {
+    grid-row-start: track;
+  }
+
+  .__d-4ka10a {
+    grid-row-end: track;
+  }
+
+  .lb {
+    width: 100%;
+  }
+
+  .lM {
+    width: calc(1.5rem * var(--s2-scale));
+  }
+
+  .kM {
+    height: calc(1.5rem * var(--s2-scale));
+  }
+
+  .kb {
+    height: 100%;
+  }
+
+  ._vc {
+    border-start-start-radius: .5rem;
+  }
+
+  ._wc {
+    border-start-end-radius: .5rem;
+  }
+
+  ._xc {
+    border-end-start-radius: .5rem;
+  }
+
+  ._yc {
+    border-end-end-radius: .5rem;
+  }
+
+  .dp10 {
+    outline-color: var(--lightningcss-light, #0000001a) var(--lightningcss-dark, #ffffff1a);
+  }
+
+  ._Nb {
+    outline-width: 1px;
+  }
+
+  ._M-3hmpv {
+    outline-offset: -1px;
+  }
+
+  ._Lb {
+    outline-style: solid;
+  }
+
+  ._La {
+    outline-style: none;
+  }
+
+  .bg {
+    background-color: var(--lightningcss-light, #e9e9e9) var(--lightningcss-dark, #2c2c2c);
+  }
+}
+
+@layer _.b {
+  ._c-enzrfpb:lang(ar) {
+    font-family: myriad-arabic, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ._f-1x99dlob:is(:lang(ja), :lang(ko), :lang(zh), :lang(zh-Hant), :lang(zh-Hans)) {
+    line-height: 1.5;
+  }
+}
+
+@layer UNSAFE_overrides;
+
+@layer _.c {
+  ._c-enzwzjc:lang(he) {
+    font-family: myriad-hebrew, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer _.d {
+  ._c-enzykdd:lang(ja) {
+    font-family: adobe-clean-han-japanese, Hiragino Kaku Gothic ProN, ヒラギノ角ゴ ProN W3, Osaka, YuGothic, Yu Gothic, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  }
+}
+
+@layer _.e {
+  ._c-enzzrge:lang(ko) {
+    font-family: adobe-clean-han-korean, source-han-korean, Malgun Gothic, Apple Gothic, sans-serif;
+  }
+}
+
+@layer _.f {
+  ._c-eo0c6sf:lang(zh) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.g {
+  ._c-1uotwbwg:lang(zh-hant) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Microsoft JhengHei UI, Microsoft JhengHei, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.h {
+  ._c-bc1l9oh:is(:lang(zh-Hans), :lang(zh-CN), :lang(zh-SG)) {
+    font-family: adobe-clean-han-simplified-c, source-han-simplified-c, SimSun, Heiti SC Light, sans-serif;
+  }
+}
+
+@layer _.b.b {
+  @media not ((hover: hover) and (pointer: fine)) {
+    ._dbf {
+      font-size: 1.0625rem;
+    }
+
+    ._dbb {
+      font-size: .8125rem;
+    }
+
+    ._dbd {
+      font-size: .9375rem;
+    }
+
+    ._dbh {
+      font-size: 1.1875rem;
+    }
+
+    ._dbj {
+      font-size: 1.375rem;
+    }
+  }
+}
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.b.a {
+  @media (forced-colors: active) {
+    .da_____v {
+      outline-color: buttonborder;
+    }
+  }
+}
+/*# sourceMappingURL=ColorSlider.css.map */

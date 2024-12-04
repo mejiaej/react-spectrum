@@ -1,0 +1,20 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  .zd {
+    margin-inline-end: .5rem;
+  }
+
+  .-rwx0fg_e-e {
+    --iconPrimary: var(--lightningcss-light, #f03823) var(--lightningcss-dark, #fc432e);
+  }
+
+  .-rwx0fg_e-g {
+    --iconPrimary: var(--lightningcss-light, #d45b00) var(--lightningcss-dark, #e06400);
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=AlertDialog.css.map */

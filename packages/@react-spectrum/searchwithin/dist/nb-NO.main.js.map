@@ -1,0 +1,1 @@
+{"mappings":"AAAA,iBAAiB;IAAG,UAAU,CAAC,MAAG,CAAC;IACjC,gBAAgB,CAAC,QAAK,CAAC;AACzB","sources":["packages/@react-spectrum/searchwithin/intl/nb-NO.json"],"sourcesContent":["{\n  \"search\": \"Søk\",\n  \"searchWithin\": \"Søk i\"\n}\n"],"names":[],"version":3,"file":"nb-NO.main.js.map"}

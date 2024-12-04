@@ -1,0 +1,44 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._Zd {
+    display: flex;
+  }
+
+  ._6a {
+    flex-direction: row;
+  }
+
+  ._6b {
+    flex-direction: column;
+  }
+
+  .ib {
+    row-gap: .125rem;
+  }
+
+  .ic {
+    row-gap: .25rem;
+  }
+
+  .id {
+    row-gap: .5rem;
+  }
+
+  .jb {
+    column-gap: .125rem;
+  }
+
+  .jc {
+    column-gap: .25rem;
+  }
+
+  .jd {
+    column-gap: .5rem;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=ActionButtonGroup.css.map */

@@ -1,0 +1,64 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._vf {
+    border-start-start-radius: 9999px;
+  }
+
+  ._wf {
+    border-start-end-radius: 9999px;
+  }
+
+  ._xf {
+    border-end-start-radius: 9999px;
+  }
+
+  ._yf {
+    border-end-end-radius: 9999px;
+  }
+
+  .lI {
+    width: calc(1.25rem * var(--s2-scale));
+  }
+
+  .kI {
+    height: calc(1.25rem * var(--s2-scale));
+  }
+
+  ._8-3t1x {
+    flex-shrink: 0;
+  }
+
+  ._9-3t1x {
+    flex-grow: 0;
+  }
+
+  .__R-yksgrp {
+    -webkit-tap-highlight-color: #0000;
+  }
+
+  ._La {
+    outline-style: none;
+  }
+
+  ._Lb {
+    outline-style: solid;
+  }
+
+  .d-1de2x0q {
+    outline-color: var(--s2-container-bg);
+  }
+
+  ._Nb {
+    outline-width: 1px;
+  }
+
+  ._Nc {
+    outline-width: 2px;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=Avatar.css.map */

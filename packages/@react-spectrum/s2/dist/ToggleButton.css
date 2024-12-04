@@ -1,0 +1,56 @@
+@layer _.a {
+  .E-1gogtue {
+    padding-top: var(--labelPadding);
+  }
+
+  .F-1gogtue {
+    padding-bottom: var(--labelPadding);
+  }
+
+  .__A-3t1y {
+    order: 1;
+  }
+
+  .__vb {
+    overflow-x: hidden;
+  }
+
+  .__wb {
+    overflow-y: hidden;
+  }
+
+  ._ma {
+    text-overflow: ellipsis;
+  }
+
+  ._pb {
+    white-space: nowrap;
+  }
+
+  .__A-3t1x {
+    order: 0;
+  }
+
+  .l-1sthc3k {
+    width: 1.42857em;
+  }
+
+  .k-1sthc3k {
+    height: 1.42857em;
+  }
+
+  .y-oelgqu {
+    margin-inline-start: var(--iconMargin);
+  }
+
+  ._8-3t1x {
+    flex-shrink: 0;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+/*# sourceMappingURL=ToggleButton.css.map */

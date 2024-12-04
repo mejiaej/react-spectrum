@@ -1,0 +1,16 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._Zd {
+    display: flex;
+  }
+
+  ._6b {
+    flex-direction: column;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=Accordion.css.map */

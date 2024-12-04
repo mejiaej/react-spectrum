@@ -1,0 +1,60 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  .__wa {
+    overflow-y: auto;
+  }
+
+  .__wb {
+    overflow-y: hidden;
+  }
+
+  ._Zd {
+    display: flex;
+  }
+
+  ._6b {
+    flex-direction: column;
+  }
+
+  ._1c {
+    align-items: center;
+  }
+
+  ._2d {
+    justify-content: center;
+  }
+
+  ._La {
+    outline-style: none;
+  }
+
+  ._Lb {
+    outline-style: solid;
+  }
+
+  .dx {
+    outline-color: var(--lightningcss-light, #4b75ff) var(--lightningcss-dark, #4069fd);
+  }
+
+  ._Nc {
+    outline-width: 2px;
+  }
+
+  ._M-3hmpw {
+    outline-offset: -2px;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+@layer _.b.a {
+  @media (forced-colors: active) {
+    .da_____z {
+      outline-color: highlight;
+    }
+  }
+}
+/*# sourceMappingURL=CardView.css.map */

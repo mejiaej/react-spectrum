@@ -1,0 +1,33 @@
+var $e451907e645e9787$exports = {};
+$e451907e645e9787$exports = {
+    "breadcrumbs.more": `\u{3A0}\u{3B5}\u{3C1}\u{3B9}\u{3C3}\u{3C3}\u{3CC}\u{3C4}\u{3B5}\u{3C1}\u{3B1} \u{3C3}\u{3C4}\u{3BF}\u{3B9}\u{3C7}\u{3B5}\u{3AF}\u{3B1}`,
+    "button.pending": `\u{3C3}\u{3B5} \u{3B5}\u{3BA}\u{3BA}\u{3C1}\u{3B5}\u{3BC}\u{3CC}\u{3C4}\u{3B7}\u{3C4}\u{3B1}`,
+    "contextualhelp.help": `\u{392}\u{3BF}\u{3AE}\u{3B8}\u{3B5}\u{3B9}\u{3B1}`,
+    "contextualhelp.info": `\u{3A0}\u{3BB}\u{3B7}\u{3C1}\u{3BF}\u{3C6}\u{3BF}\u{3C1}\u{3AF}\u{3B5}\u{3C2}`,
+    "dialog.alert": `\u{395}\u{3B9}\u{3B4}\u{3BF}\u{3C0}\u{3BF}\u{3AF}\u{3B7}\u{3C3}\u{3B7}`,
+    "dialog.dismiss": `\u{391}\u{3C0}\u{3CC}\u{3C1}\u{3C1}\u{3B9}\u{3C8}\u{3B7}`,
+    "dropzone.replaceMessage": `\u{391}\u{3C0}\u{3CC}\u{3B8}\u{3B5}\u{3C3}\u{3B7} \u{3B1}\u{3C1}\u{3C7}\u{3B5}\u{3AF}\u{3BF}\u{3C5} \u{3B3}\u{3B9}\u{3B1} \u{3B1}\u{3BD}\u{3C4}\u{3B9}\u{3BA}\u{3B1}\u{3C4}\u{3AC}\u{3C3}\u{3C4}\u{3B1}\u{3C3}\u{3B7}`,
+    "inlinealert.informative": `\u{3A0}\u{3BB}\u{3B7}\u{3C1}\u{3BF}\u{3C6}\u{3BF}\u{3C1}\u{3AF}\u{3B5}\u{3C2}`,
+    "inlinealert.negative": `\u{3A3}\u{3C6}\u{3AC}\u{3BB}\u{3BC}\u{3B1}`,
+    "inlinealert.notice": `\u{3A0}\u{3C1}\u{3BF}\u{3B5}\u{3B9}\u{3B4}\u{3BF}\u{3C0}\u{3BF}\u{3AF}\u{3B7}\u{3C3}\u{3B7}`,
+    "inlinealert.positive": `\u{395}\u{3C0}\u{3B9}\u{3C4}\u{3C5}\u{3C7}\u{3AF}\u{3B1}`,
+    "label.(optional)": `(\u{3C0}\u{3C1}\u{3BF}\u{3B1}\u{3B9}\u{3C1}\u{3B5}\u{3C4}\u{3B9}\u{3BA}\u{3CC})`,
+    "label.(required)": `(\u{3B1}\u{3C0}\u{3B1}\u{3B9}\u{3C4}\u{3B5}\u{3AF}\u{3C4}\u{3B1}\u{3B9})`,
+    "menu.moreActions": `\u{3A0}\u{3B5}\u{3C1}\u{3B9}\u{3C3}\u{3C3}\u{3CC}\u{3C4}\u{3B5}\u{3C1}\u{3B5}\u{3C2} \u{3B5}\u{3BD}\u{3AD}\u{3C1}\u{3B3}\u{3B5}\u{3B9}\u{3B5}\u{3C2}`,
+    "picker.placeholder": `\u{395}\u{3C0}\u{3B9}\u{3BB}\u{3BF}\u{3B3}\u{3AE}\u{2026}`,
+    "slider.maximum": `\u{39C}\u{3AD}\u{3B3}\u{3B9}\u{3C3}\u{3C4}\u{3BF}`,
+    "slider.minimum": `\u{395}\u{3BB}\u{3AC}\u{3C7}\u{3B9}\u{3C3}\u{3C4}\u{3BF}`,
+    "table.loading": `\u{3A6}\u{3CC}\u{3C1}\u{3C4}\u{3C9}\u{3C3}\u{3B7}...`,
+    "table.loadingMore": `\u{3A6}\u{3CC}\u{3C1}\u{3C4}\u{3C9}\u{3C3}\u{3B7} \u{3C0}\u{3B5}\u{3C1}\u{3B9}\u{3C3}\u{3C3}\u{3CC}\u{3C4}\u{3B5}\u{3C1}\u{3C9}\u{3BD}...`,
+    "table.resizeColumn": `\u{391}\u{3BB}\u{3BB}\u{3B1}\u{3B3}\u{3AE} \u{3BC}\u{3B5}\u{3B3}\u{3AD}\u{3B8}\u{3BF}\u{3C5}\u{3C2} \u{3C3}\u{3C4}\u{3AE}\u{3BB}\u{3B7}\u{3C2}`,
+    "table.sortAscending": `\u{3A4}\u{3B1}\u{3BE}\u{3B9}\u{3BD}\u{3CC}\u{3BC}\u{3B7}\u{3C3}\u{3B7} \u{3BA}\u{3B1}\u{3C4}\u{3AC} \u{3B1}\u{3CD}\u{3BE}\u{3BF}\u{3C5}\u{3C3}\u{3B1} \u{3C3}\u{3B5}\u{3B9}\u{3C1}\u{3AC}`,
+    "table.sortDescending": `\u{3A4}\u{3B1}\u{3BE}\u{3B9}\u{3BD}\u{3CC}\u{3BC}\u{3B7}\u{3C3}\u{3B7} \u{3BA}\u{3B1}\u{3C4}\u{3AC} \u{3C6}\u{3B8}\u{3AF}\u{3BD}\u{3BF}\u{3C5}\u{3C3}\u{3B1} \u{3C3}\u{3B5}\u{3B9}\u{3C1}\u{3AC}`,
+    "tag.actions": `\u{395}\u{3BD}\u{3AD}\u{3C1}\u{3B3}\u{3B5}\u{3B9}\u{3B5}\u{3C2}`,
+    "tag.hideButtonLabel": `\u{395}\u{3BC}\u{3C6}\u{3AC}\u{3BD}\u{3B9}\u{3C3}\u{3B7} \u{3BB}\u{3B9}\u{3B3}\u{3CC}\u{3C4}\u{3B5}\u{3C1}\u{3C9}\u{3BD}`,
+    "tag.noTags": `\u{39A}\u{3B1}\u{3BD}\u{3AD}\u{3BD}\u{3B1}`,
+    "tag.showAllButtonLabel": (args, formatter)=>`\u{395}\u{3BC}\u{3C6}\u{3AC}\u{3BD}\u{3B9}\u{3C3}\u{3B7} \u{3CC}\u{3BB}\u{3C9}\u{3BD} (${formatter.number(args.tagCount)})`
+};
+
+
+export {$e451907e645e9787$exports as default};
+//# sourceMappingURL=el-GR.mjs.map

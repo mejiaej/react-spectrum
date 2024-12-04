@@ -1,0 +1,68 @@
+@layer _.a {
+  ._Ze {
+    display: inline-flex;
+  }
+
+  .Uc {
+    position: relative;
+  }
+
+  .id {
+    row-gap: .5rem;
+  }
+
+  .ie {
+    row-gap: .75rem;
+  }
+
+  .jd {
+    column-gap: .5rem;
+  }
+
+  .je {
+    column-gap: .75rem;
+  }
+
+  ._6a {
+    flex-direction: row;
+  }
+
+  ._6b {
+    flex-direction: column;
+  }
+
+  ._1a {
+    align-items: start;
+  }
+
+  ._1b {
+    align-items: end;
+  }
+
+  ._1c {
+    align-items: center;
+  }
+
+  ._2b {
+    justify-content: start;
+  }
+
+  ._2c {
+    justify-content: end;
+  }
+
+  ._2d {
+    justify-content: center;
+  }
+
+  ._8-3t1x {
+    flex-shrink: 0;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+/*# sourceMappingURL=ButtonGroup.css.map */

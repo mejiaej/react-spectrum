@@ -1,0 +1,84 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._Zd {
+    display: flex;
+  }
+
+  ._1c {
+    align-items: center;
+  }
+
+  ._2d {
+    justify-content: center;
+  }
+
+  .kb {
+    height: 100%;
+  }
+
+  .lf {
+    width: calc(2rem * var(--s2-scale));
+  }
+
+  .lg {
+    width: calc(1.25rem * var(--s2-scale));
+  }
+
+  .lh {
+    width: calc(1.5rem * var(--s2-scale));
+  }
+
+  .li {
+    width: calc(2.5rem * var(--s2-scale));
+  }
+
+  .lj {
+    width: calc(3rem * var(--s2-scale));
+  }
+
+  ._8-3t1x {
+    flex-shrink: 0;
+  }
+
+  .wf {
+    border-style: none;
+  }
+
+  ._La {
+    outline-style: none;
+  }
+
+  .ba {
+    background-color: #0000;
+  }
+
+  .Ea {
+    padding-top: 0;
+  }
+
+  .Fa {
+    padding-bottom: 0;
+  }
+
+  .Ca {
+    padding-inline-start: 0;
+  }
+
+  .Da {
+    padding-inline-end: 0;
+  }
+
+  .a-17zqamw {
+    color: inherit;
+  }
+
+  .-rwx0fg_e-b {
+    --iconPrimary: currentColor;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=ClearButton.css.map */

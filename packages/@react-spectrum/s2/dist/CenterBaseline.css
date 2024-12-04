@@ -1,0 +1,22 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._Zd {
+    display: flex;
+  }
+
+  ._1c {
+    align-items: center;
+  }
+
+  .-_1b6ows1:before {
+    content: " ";
+    visibility: hidden;
+    width: 0;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=CenterBaseline.css.map */

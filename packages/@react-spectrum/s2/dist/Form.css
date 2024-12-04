@@ -1,0 +1,44 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._Zf {
+    display: grid;
+  }
+
+  .__h-nvqmqy {
+    grid-template-columns: [field] 1fr;
+  }
+
+  .__h-hgmn7f {
+    grid-template-columns: [label] auto[field] 1fr;
+  }
+
+  .if {
+    row-gap: 1rem;
+  }
+
+  .ig {
+    row-gap: 1.25rem;
+  }
+
+  .ih {
+    row-gap: 1.5rem;
+  }
+
+  .ij {
+    row-gap: 2rem;
+  }
+
+  .il {
+    row-gap: 2.5rem;
+  }
+
+  .jF {
+    column-gap: .714286em;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=Form.css.map */

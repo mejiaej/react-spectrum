@@ -6,7 +6,6 @@
 .parcel-cache
 build-storybook.log
 coverage
-dist
 junit.xml
 .yarn/install-state.gz
 node_modules

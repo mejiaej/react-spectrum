@@ -1,0 +1,112 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  .Eh {
+    padding-top: 1.5rem;
+  }
+
+  .Ea {
+    padding-top: 0;
+  }
+
+  .Fh {
+    padding-bottom: 1.5rem;
+  }
+
+  .Fa {
+    padding-bottom: 0;
+  }
+
+  .Ch {
+    padding-inline-start: 1.5rem;
+  }
+
+  .Ca {
+    padding-inline-start: 0;
+  }
+
+  .Dh {
+    padding-inline-end: 1.5rem;
+  }
+
+  .Da {
+    padding-inline-end: 0;
+  }
+
+  .__na {
+    box-sizing: border-box;
+  }
+
+  ._La {
+    outline-style: none;
+  }
+
+  ._v-17zqamw {
+    border-start-start-radius: inherit;
+  }
+
+  ._w-17zqamw {
+    border-start-end-radius: inherit;
+  }
+
+  ._x-17zqamw {
+    border-end-start-radius: inherit;
+  }
+
+  ._y-17zqamw {
+    border-end-end-radius: inherit;
+  }
+
+  .__va {
+    overflow-x: auto;
+  }
+
+  .__wa {
+    overflow-y: auto;
+  }
+
+  .Uc {
+    position: relative;
+  }
+
+  .lb {
+    width: 100%;
+  }
+
+  .kb {
+    height: 100%;
+  }
+
+  .r-17zqamw {
+    max-width: inherit;
+  }
+
+  .p-17zqamw {
+    max-height: inherit;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+@layer _.b.c {
+  @media (width >= 640px) {
+    .Ecj {
+      padding-top: 2rem;
+    }
+
+    .Fcj {
+      padding-bottom: 2rem;
+    }
+
+    .Ccj {
+      padding-inline-start: 2rem;
+    }
+
+    .Dcj {
+      padding-inline-end: 2rem;
+    }
+  }
+}
+/*# sourceMappingURL=CustomDialog.css.map */

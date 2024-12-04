@@ -1,0 +1,1 @@
+{"mappings":"AAAA,iBAAiB;IAAG,UAAU,CAAC,MAAM,CAAC;IACpC,gBAAgB,CAAC,SAAS,CAAC;AAC7B","sources":["packages/@react-spectrum/searchwithin/intl/nl-NL.json"],"sourcesContent":["{\n  \"search\": \"Zoeken\",\n  \"searchWithin\": \"Zoeken in\"\n}\n"],"names":[],"version":3,"file":"nl-NL.main.js.map"}

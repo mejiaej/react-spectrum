@@ -1,0 +1,104 @@
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.a {
+  ._4e {
+    align-self: stretch;
+  }
+
+  .bh {
+    background-color: var(--lightningcss-light, #e1e1e1) var(--lightningcss-dark, #323232);
+  }
+
+  .bn {
+    background-color: var(--lightningcss-light, #292929) var(--lightningcss-dark, #dbdbdb);
+  }
+
+  .b____8 {
+    background-color: #ffffff24;
+  }
+
+  .b_____e {
+    background-color: #ffffffd9;
+  }
+
+  .b_____l {
+    background-color: #0000001f;
+  }
+
+  .b_____r {
+    background-color: #000000d6;
+  }
+
+  .wf {
+    border-style: none;
+  }
+
+  ._vf {
+    border-start-start-radius: 9999px;
+  }
+
+  ._wf {
+    border-start-end-radius: 9999px;
+  }
+
+  ._xf {
+    border-end-start-radius: 9999px;
+  }
+
+  ._yf {
+    border-end-end-radius: 9999px;
+  }
+
+  .Aa {
+    margin-top: 0;
+  }
+
+  .Ba {
+    margin-bottom: 0;
+  }
+
+  .ya {
+    margin-inline-start: 0;
+  }
+
+  .za {
+    margin-inline-end: 0;
+  }
+
+  .k-375zlr {
+    height: 2px;
+  }
+
+  .k-375yri {
+    height: 1px;
+  }
+
+  .k-3761a9 {
+    height: 4px;
+  }
+
+  .l-375zlr {
+    width: 2px;
+  }
+
+  .l-375yri {
+    width: 1px;
+  }
+
+  .l-3761a9 {
+    width: 4px;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+@layer _.b.a {
+  @media (forced-colors: active) {
+    .ba_____v {
+      background-color: buttonborder;
+    }
+  }
+}
+/*# sourceMappingURL=Divider.css.map */

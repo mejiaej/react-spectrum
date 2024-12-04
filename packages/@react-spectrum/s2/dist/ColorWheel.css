@@ -1,0 +1,80 @@
+@layer _.a {
+  ._M-3hmpv {
+    outline-offset: -1px;
+  }
+
+  .bg {
+    background-color: var(--lightningcss-light, #e9e9e9) var(--lightningcss-dark, #2c2c2c);
+  }
+
+  .Ua {
+    position: absolute;
+  }
+
+  .Xh {
+    top: 1.5rem;
+  }
+
+  .Zh {
+    bottom: 1.5rem;
+  }
+
+  .Vh {
+    inset-inline-start: 1.5rem;
+  }
+
+  .Wh {
+    inset-inline-end: 1.5rem;
+  }
+
+  .__Ba {
+    pointer-events: none;
+  }
+
+  ._vf {
+    border-start-start-radius: 9999px;
+  }
+
+  ._wf {
+    border-start-end-radius: 9999px;
+  }
+
+  ._xf {
+    border-end-start-radius: 9999px;
+  }
+
+  ._yf {
+    border-end-end-radius: 9999px;
+  }
+
+  .dp10 {
+    outline-color: var(--lightningcss-light, #0000001a) var(--lightningcss-dark, #ffffff1a);
+  }
+
+  ._Nb {
+    outline-width: 1px;
+  }
+
+  ._Lb {
+    outline-style: solid;
+  }
+
+  ._La {
+    outline-style: none;
+  }
+}
+
+@layer _.b, UNSAFE_overrides;
+
+@layer _.b.a {
+  @media (forced-colors: active) {
+    .da_____v {
+      outline-color: buttonborder;
+    }
+  }
+}
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+/*# sourceMappingURL=ColorWheel.css.map */

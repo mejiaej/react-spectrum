@@ -1,0 +1,1 @@
+{"mappings":"AAAA,iBAAiB;IAAG,UAAU,CAAC,mCAAK,CAAC;IACnC,gBAAgB,CAAC,2CAAO,CAAC;AAC3B","sources":["packages/@react-spectrum/searchwithin/intl/uk-UA.json"],"sourcesContent":["{\n  \"search\": \"Пошук\",\n  \"searchWithin\": \"Пошук у\"\n}\n"],"names":[],"version":3,"file":"uk-UA.main.js.map"}

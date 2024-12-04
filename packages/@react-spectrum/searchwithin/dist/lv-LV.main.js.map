@@ -1,0 +1,1 @@
+{"mappings":"AAAA,iBAAiB;IAAG,UAAU,CAAC,YAAM,CAAC;IACpC,gBAAgB,CAAC,8BAAY,CAAC;AAChC","sources":["packages/@react-spectrum/searchwithin/intl/lv-LV.json"],"sourcesContent":["{\n  \"search\": \"Meklēt\",\n  \"searchWithin\": \"Meklēt šajā:\"\n}\n"],"names":[],"version":3,"file":"lv-LV.main.js.map"}

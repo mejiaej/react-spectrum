@@ -1,0 +1,1 @@
+{"mappings":"AAAA,iBAAiB;IAAG,UAAU,CAAC,iDAAO,CAAC;IACrC,gBAAgB,CAAC,gEAAU,CAAC;AAC9B","sources":["packages/@react-spectrum/searchwithin/intl/bg-BG.json"],"sourcesContent":["{\n  \"search\": \"Търсене\",\n  \"searchWithin\": \"Търсене из\"\n}\n"],"names":[],"version":3,"file":"bg-BG.main.js.map"}

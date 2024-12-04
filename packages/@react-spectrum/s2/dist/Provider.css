@@ -1,0 +1,74 @@
+@layer _.a {
+  :where(html) {
+    --lightningcss-light: initial;
+    --lightningcss-dark: ;
+    --s2-scale: 1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :where(html) {
+      --lightningcss-light: ;
+      --lightningcss-dark: initial;
+    }
+  }
+
+  @media not ((hover: hover) and (pointer: fine)) {
+    :where(html) {
+      --s2-scale: 1.25;
+    }
+  }
+
+  ._A-10jn6wd {
+    color-scheme: var(--lightningcss-light, light) var(--lightningcss-dark, dark);
+  }
+
+  ._Ac {
+    --lightningcss-light: initial;
+    --lightningcss-dark: ;
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    ._Ac {
+      --lightningcss-light: ;
+      --lightningcss-dark: initial;
+    }
+  }
+
+  ._Aa {
+    --lightningcss-light: initial;
+    --lightningcss-dark: ;
+    color-scheme: light;
+  }
+
+  ._Ab {
+    --lightningcss-light: ;
+    --lightningcss-dark: initial;
+    color-scheme: dark;
+  }
+
+  .-_1de2x0q_b-d {
+    --s2-container-bg: var(--lightningcss-light, #fff) var(--lightningcss-dark, #111);
+  }
+
+  .-_1de2x0q_b-e {
+    --s2-container-bg: var(--lightningcss-light, #f8f8f8) var(--lightningcss-dark, #1b1b1b);
+  }
+
+  .-_1de2x0q_b-______k {
+    --s2-container-bg: var(--lightningcss-light, #fff) var(--lightningcss-dark, #222);
+  }
+
+  .b-1de2x0q {
+    background-color: var(--s2-container-bg);
+    background-color: var(--s2-container-bg);
+    background-color: var(--s2-container-bg);
+  }
+}
+
+.\.:not(#a#b) {
+  all: revert-layer;
+}
+
+@layer _.b, UNSAFE_overrides;
+/*# sourceMappingURL=Provider.css.map */

@@ -1,0 +1,1 @@
+{"mappings":"AAAA,iBAAiB;IAAG,WAAW,CAAC,cAAc,CAAC;IAC7C,eAAe,CAAC,oCAA8B,CAAC;AACjD","sources":["packages/@react-spectrum/card/intl/pl-PL.json"],"sourcesContent":["{\n  \"loading\": \"Wczytywanie...\",\n  \"loadingMore\": \"Wczytywanie większej liczby...\"\n}\n"],"names":[],"version":3,"file":"pl-PL.main.js.map"}
